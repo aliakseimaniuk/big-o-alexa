@@ -3,7 +3,7 @@ deploy:
   provider: lambda
   function_name: BigOnotation
   region: us-east-1
-  role: arn:aws:lambda:us-east-1:053424371369:function:BigOnotation
+  role: arn:aws:iam::053424371369:role/lambda_basic_execution
   runtime: python3.6
   handler_name: lambda_handler
   access_key_id: AKIAI3WQBMZRH5Q7VXUA
