@@ -1,7 +1,4 @@
-language: python
-python:
-  - "3.6"
-
+language: generic
 deploy:
   provider: lambda
   function_name: BigOnotation
