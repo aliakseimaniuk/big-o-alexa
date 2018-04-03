@@ -1,12 +1,12 @@
 language: generic
 deploy:
-  provider: lambda
+  provider: lambda/bigonotation
   function_name: BigOnotation
   region: us-east-1
   role: arn:aws:iam::053424371369:role/lambda_basic_execution
   runtime: python3.6
   module_name: lambda
-  handler_name: bigonotation.lambda_handler
+  handler_name: lambda_handler
   access_key_id: AKIAI3WQBMZRH5Q7VXUA
   secret_access_key:
     secure: m0fMs6fc0WwaNHotJkYf0udOqNn2OSFR5NCqeHYrjJSMtnDXlvieVHOJwrMPbTgcraf0mmh5MVCf/TT6gmXMH8wXksyvgyq+FFFAvx9lzoMeFaiJ1lbP/eYwhJKT0wGGzMC1tEx7qLDpD8e6uQyLDu6iXbTrdbBBInfHkqRZdTWYdMOPpf9biBedXfwM3PTGXscbW29/4n8LiG/hc3p7ZMCRhd11dF39mv/pNbQNw0fM2UQsb/YcGjuBx5EvzeUNwdHFcUgRwRYJIOF7O8ZVIotWpywjyTpi5AXT2iNVWwXDl/Qql89DVw2Go1H9mSY3Z26ZDmGs2WfGO/xJXrISQJuHCF8Z5HJ0bwmYpkIuWPMNp7Hh8/+lJdcR90RTcalcFb1AtOlZ3WOfaz9/tw2miIx9F5J0utzTfqkXkrdD+lrcZueZqQShhlSjc5dsjSoZkMVw5P/py3sEDL+7qAIz0Fh6Bt7biqzSRReuCD09umoxLtwNzI2IKGkRrKaiAKUNO1GsxMNOiJopew/jKz9gwJ78v9hr2X5zBsGFZkiy0miQVQSvM8HTMY5/BaPwc1wTwA63qR/q/jfEsBU2nk0X9EXLmuiEiff854H2OE5qaUmI8rppQ94PtW7g+0vB4EwjJU8SSVWWL7N/DalzPEp0VZGd0GRtRGh1nC4j/J/2eDQ=
