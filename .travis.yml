@@ -1,6 +1,6 @@
 language: generic
 deploy:
-  provider: lambda/bigonotation
+  provider: lambda.bigonotation
   function_name: BigOnotation
   region: us-east-1
   role: arn:aws:iam::053424371369:role/lambda_basic_execution
