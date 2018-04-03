@@ -1,11 +1,11 @@
 language: generic
 deploy:
-  provider: lambda.bigonotation
+  provider: lambda
   function_name: BigOnotation
   region: us-east-1
   role: arn:aws:iam::053424371369:role/lambda_basic_execution
   runtime: python3.6
-  module_name: lambda
+  module_name: lambda/bigonotation
   handler_name: lambda_handler
   access_key_id: AKIAI3WQBMZRH5Q7VXUA
   secret_access_key:
