@@ -24,8 +24,12 @@
                         }
                     ],
                     "samples": [
+                        "The worst time complexity of {SortingAlgorithm}",
+                        "The worst speed of {SortingAlgorithm}",
+                        "Big O of {SortingAlgorithm}",
+                        "Time complexity of {SortingAlgorithm}",
                         "Tell me is time complexity of {SortingAlgorithm}",
-                        "What is big o of {SortingAlgorithm}",
+                        "What is big O of {SortingAlgorithm}",
                         "What is time complexity of {SortingAlgorithm}",
                         "What is the worst speed of {SortingAlgorithm}",
                         "What is the worst time complexity of {SortingAlgorithm}"
@@ -40,6 +44,8 @@
                         }
                     ],
                     "samples": [
+                        "The best time complexity of {SortingAlgorithm}",
+                        "The best speed of {SortingAlgorithm}",
                         "What is the best speed of {SortingAlgorithm}",
                         "What is the best time complexity of {SortingAlgorithm}"
                     ]
@@ -53,6 +59,8 @@
                         }
                     ],
                     "samples": [
+                        "The average time complexity of {SortingAlgorithm}",
+                        "The average speed of {SortingAlgorithm}",
                         "What is the average speed of {SortingAlgorithm}",
                         "What is the average time complexity of {SortingAlgorithm}"
                     ]
@@ -66,6 +74,9 @@
                         }
                     ],
                     "samples": [
+                        "Say complexity of {SortingAlgorithm}",
+                        "Tell me complexity of {SortingAlgorithm}",
+                        "Space complexity of {SortingAlgorithm}",
                         "What is space complexity of {SortingAlgorithm}"
                     ]
                 }

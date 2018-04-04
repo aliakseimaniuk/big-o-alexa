@@ -2,15 +2,17 @@
 WELCOME_MESSAGE = ("Welcome to the Big O notation! What would you like to know?")
 
 #This is the message a user will hear when they ask Alexa for help in your skill.
-HELP_MESSAGE = ("Help help help!")
+HELP_MESSAGE = ("With this skill, you can learn time complexity of common algorithms."
+                " You can ask about time complexity of quicksort, mergesort, and other sorting algorithms."
+                " What would you like to know?")
 
 #This is the message a user will hear when the session is ended.
-SESSION_ENDED_MESSAGE = ("Bye bye")
+SESSION_ENDED_MESSAGE = ("Come back next time you would like to know more about big O notation. Bye bye!")
 
 # This is the message a user will hear when there is no intent match.
-ELSE_MESSAGE = ("I'm sorry I don't know that, Alex...")
+ELSE_MESSAGE = ("I'm sorry, I don't know that...")
 
-# --------------- Algorithms data
+# --------------- algorithms data
 
 class Algorithm:
     def __init__(self, name, bestTimeComplexity, averageTimeComplexity, worstTimeComplexity, spaceComplexity):
@@ -47,23 +49,29 @@ def on_launch():
 
 def on_intent(request, session):
     intent_name = request['intent']['name']
+    print("on_intent: " + intent_name)
 
-    if intent_name == "WorstTimeComplexity":
-        return say_worst_time_complexity(request)
-    elif intent_name == "BestTimeComplexity":
-        return say_best_time_complexity(request)
-    elif intent_name == "AverageTimeComplexity":
-        return say_average_time_complexity(request)
-    elif intent_name == "SpaceComplexity":
-        return say_space_complexity(request)
-    elif intent_name == "AMAZON.HelpIntent":
-        return do_help()
-    elif intent_name == "AMAZON.StopIntent":
-        return do_stop()
-    elif intent_name == "AMAZON.CancelIntent":
-        return do_stop()
-    else:
-        return do_global_else()
+    try:
+        if intent_name == "WorstTimeComplexity":
+            return say_worst_time_complexity(request)
+        elif intent_name == "BestTimeComplexity":
+            return say_best_time_complexity(request)
+        elif intent_name == "AverageTimeComplexity":
+            return say_average_time_complexity(request)
+        elif intent_name == "SpaceComplexity":
+            return say_space_complexity(request)
+        elif intent_name == "AMAZON.HelpIntent":
+            return do_help()
+        elif intent_name == "AMAZON.StopIntent":
+            return do_stop()
+        elif intent_name == "AMAZON.CancelIntent":
+            return do_stop()
+        else:
+            return do_global_else()
+    except Exception:
+        print("Exception happened during intent processing.")
+
+    return do_global_else()
 
 def on_session_ended(request):
     return response(response_plain_text(SESSION_ENDED_MESSAGE, True))
