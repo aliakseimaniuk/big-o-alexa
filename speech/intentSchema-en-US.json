@@ -1,0 +1,150 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "big o notation",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WorstTimeComplexity",
+                    "slots": [
+                        {
+                            "name": "SortingAlgorithm",
+                            "type": "SortingAlgorithm"
+                        }
+                    ],
+                    "samples": [
+                        "Tell me is time complexity of {SortingAlgorithm}",
+                        "What is big o of {SortingAlgorithm}",
+                        "What is time complexity of {SortingAlgorithm}",
+                        "What is the worst speed of {SortingAlgorithm}",
+                        "What is the worst time complexity of {SortingAlgorithm}"
+                    ]
+                },
+                {
+                    "name": "BestTimeComplexity",
+                    "slots": [
+                        {
+                            "name": "SortingAlgorithm",
+                            "type": "SortingAlgorithm"
+                        }
+                    ],
+                    "samples": [
+                        "What is the best speed of {SortingAlgorithm}",
+                        "What is the best time complexity of {SortingAlgorithm}"
+                    ]
+                },
+                {
+                    "name": "AverageTimeComplexity",
+                    "slots": [
+                        {
+                            "name": "SortingAlgorithm",
+                            "type": "SortingAlgorithm"
+                        }
+                    ],
+                    "samples": [
+                        "What is the average speed of {SortingAlgorithm}",
+                        "What is the average time complexity of {SortingAlgorithm}"
+                    ]
+                },
+                {
+                    "name": "SpaceComplexity",
+                    "slots": [
+                        {
+                            "name": "SortingAlgorithm",
+                            "type": "SortingAlgorithm"
+                        }
+                    ],
+                    "samples": [
+                        "What is space complexity of {SortingAlgorithm}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "SortingAlgorithm",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Cubesort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Counting Sort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Radix Sort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bucket Sort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shell Sort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tree Sort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Selection Sort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Insertion Sort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bubble Sort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Heapsort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Timsort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mergesort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Quicksort",
+                                "synonyms": [
+                                    "QSort"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
