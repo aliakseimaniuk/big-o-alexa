@@ -1,0 +1,22 @@
+To test this skill you need Echo dot device.
+
+To start the conversation with Alexa, say, Alexa, open Big O Notation. After that, you can ask questions about the following sorting algorithms:
+- Quicksort
+- Mergesort
+- Timsort
+- Heapsort
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Tree Sort
+- Bucket Sort
+- Radix Sort
+- Counting Sort
+- Cubesort
+
+Example Phrases:
+alexa open big o notation
+alexa ask big o notation What is the worst time complexity of Bubble Sort
+alexa ask big o notation What is the best time complexity of quicksort
+alexa ask big o notation What is the average time complexity of Bubble Sort
+alexa ask big o notation what is the space complexity of Bubble Sort

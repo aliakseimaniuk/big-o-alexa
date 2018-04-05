@@ -1,0 +1,27 @@
+Short:
+With this skill, you can get help with time and space complexity of common sorting algorithms.
+
+Detailed Description:
+Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. With this skill, you can get help with time and space complexity of common sorting algorithms.
+
+To start the conversation with Alexa, say, Alexa, open Big O Notation. After that, you can ask questions about the following sorting algorithms:
+- Quicksort
+- Mergesort
+- Timsort
+- Heapsort
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Tree Sort
+- Bucket Sort
+- Radix Sort
+- Counting Sort
+- Cubesort
+
+Example Phrases:
+Alexa, open Big O Notation
+Alexa, ask Big O Notation what is time complexity of Quicksort
+Alexa, launch Big O Notation
+
+Keywords:
+algorithm, sorting, big, o, notation, big, o, cheat, sheet, quicksort, mergesort, timsort, heapsort, bubble, sort, insertion, sort, selection, sort, tree, sort, bucket, sort, radix, sort, cubesort

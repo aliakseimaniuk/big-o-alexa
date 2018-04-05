@@ -1,5 +1,0 @@
-alexa open big o notation
-alexa ask big o notation What is the worst time complexity of Bubble Sort
-alexa ask big o notation What is the best time complexity of quicksort
-alexa ask big o notation What is the average time complexity of Bubble Sort
-alexa ask big o notation what is the space complexity of Bubble Sort

@@ -1,8 +1,10 @@
 #This is the welcome message for when a user starts the skill without a specific intent.
-WELCOME_MESSAGE = ("Welcome to the Big O notation! What would you like to know?")
+WELCOME_MESSAGE = ("Welcome to the Big O notation!"
+                    " With this skill, you can learn time and space complexity of common algorithms."
+                    " What would you like to know?")
 
 #This is the message a user will hear when they ask Alexa for help in your skill.
-HELP_MESSAGE = ("With this skill, you can learn time complexity of common algorithms."
+HELP_MESSAGE = ("With this skill, you can learn time and space complexity of common algorithms."
                 " You can ask about time complexity of quicksort, mergesort, and other sorting algorithms."
                 " What would you like to know?")
 
@@ -28,7 +30,12 @@ ALGORITHMS['mergesort'] = Algorithm("Mergesort", "n log(n)", "n log(n)", "n log(
 ALGORITHMS['timsort'] = Algorithm("Timsort", "n", "n log(n)", "n log(n)", "n")
 ALGORITHMS['heapsort'] = Algorithm("Heapsort", "n log(n)", "n log(n)", "n log(n)", "1")
 ALGORITHMS['bubble sort'] = Algorithm("Bubble Sort", "n", "n^2", "n^2", "1")
-ALGORITHMS['heapsort'] = Algorithm("Heapsort", "n log(n)", "n log(n)", "n log(n)", "1")
+ALGORITHMS['insertion sort'] = Algorithm("Insertion Sort", "n", "n^2", "n^2", "1")
+ALGORITHMS['selection sort'] = Algorithm("Selection Sort", "n^2", "n^2", "n^2", "1")
+ALGORITHMS['tree sort'] = Algorithm("Tree Sort", "n log(n)", "n log(n)", "n^2", "n")
+ALGORITHMS['bucket sort'] = Algorithm("Bucket Sort", "n+k", "n+k", "n^2", "n")
+ALGORITHMS['radix sort'] = Algorithm("Radix Sort", "n*k", "n*k", "n*k", "n+k")
+ALGORITHMS['cubesort'] = Algorithm("Cubesort", "n", "n log(n)", "n log(n)", "n")
 
 # --------------- entry point
 

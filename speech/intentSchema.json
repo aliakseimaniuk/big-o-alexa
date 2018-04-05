@@ -24,11 +24,13 @@
                         }
                     ],
                     "samples": [
+                        "What is worst speed of {SortingAlgorithm}",
+                        "Say worst speed of {SortingAlgorithm}",
                         "The worst time complexity of {SortingAlgorithm}",
                         "The worst speed of {SortingAlgorithm}",
                         "Big O of {SortingAlgorithm}",
                         "Time complexity of {SortingAlgorithm}",
-                        "Tell me is time complexity of {SortingAlgorithm}",
+                        "Tell me time complexity of {SortingAlgorithm}",
                         "What is big O of {SortingAlgorithm}",
                         "What is time complexity of {SortingAlgorithm}",
                         "What is the worst speed of {SortingAlgorithm}",
@@ -44,6 +46,10 @@
                         }
                     ],
                     "samples": [
+                        "What is best time complexity of {SortingAlgorithm}",
+                        "Say the best time of {SortingAlgorithm}",
+                        "The best time of {SortingAlgorithm}",
+                        "Tell me the best time of {SortingAlgorithm}",
                         "The best time complexity of {SortingAlgorithm}",
                         "The best speed of {SortingAlgorithm}",
                         "What is the best speed of {SortingAlgorithm}",
@@ -59,6 +65,10 @@
                         }
                     ],
                     "samples": [
+                        "What is average speed of {SortingAlgorithm}",
+                        "Say the average of {SortingAlgorithm}",
+                        "The average time of {SortingAlgorithm}",
+                        "Tell me the average time of {SortingAlgorithm}",
                         "The average time complexity of {SortingAlgorithm}",
                         "The average speed of {SortingAlgorithm}",
                         "What is the average speed of {SortingAlgorithm}",
@@ -74,7 +84,7 @@
                         }
                     ],
                     "samples": [
-                        "Say complexity of {SortingAlgorithm}",
+                        "Say space complexity of {SortingAlgorithm}",
                         "Tell me complexity of {SortingAlgorithm}",
                         "Space complexity of {SortingAlgorithm}",
                         "What is space complexity of {SortingAlgorithm}"
