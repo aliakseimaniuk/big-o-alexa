@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "big o notation",
+            "invocationName": "big oh notation",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
