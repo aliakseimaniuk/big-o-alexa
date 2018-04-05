@@ -35,6 +35,7 @@ ALGORITHMS['selection sort'] = Algorithm("Selection Sort", "n^2", "n^2", "n^2", 
 ALGORITHMS['tree sort'] = Algorithm("Tree Sort", "n log(n)", "n log(n)", "n^2", "n")
 ALGORITHMS['bucket sort'] = Algorithm("Bucket Sort", "n+k", "n+k", "n^2", "n")
 ALGORITHMS['radix sort'] = Algorithm("Radix Sort", "n*k", "n*k", "n*k", "n+k")
+ALGORITHMS['counting sort'] = Algorithm("counting Sort", "n+k", "n+k", "n+k", "k")
 ALGORITHMS['cubesort'] = Algorithm("Cubesort", "n", "n log(n)", "n log(n)", "n")
 
 # --------------- entry point
