@@ -1,10 +1,10 @@
 #This is the welcome message for when a user starts the skill without a specific intent.
 WELCOME_MESSAGE = ("Welcome to the Big O notation!"
-                    " With this skill, you can learn time and space complexity of common algorithms."
+                    " With this skill, you can learn time and space complexity of common sorting algorithms."
                     " What would you like to know?")
 
 #This is the message a user will hear when they ask Alexa for help in your skill.
-HELP_MESSAGE = ("With this skill, you can learn time and space complexity of common algorithms."
+HELP_MESSAGE = ("With this skill, you can learn time and space complexity of common sorting algorithms."
                 " You can ask about time complexity of quicksort, mergesort, and other sorting algorithms."
                 " What would you like to know?")
 
